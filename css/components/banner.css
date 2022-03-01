@@ -1,0 +1,39 @@
+.banner{
+	background-image: linear-gradient(180deg, rgba(255,255,255,0.3) 10%, rgba(255,255,255,0.10) 50%),url(../../images/photo-lit.jpeg);
+	color: white;
+	padding: 150px 0px;
+	background-size: cover;
+	background-position: center;
+	padding-top: 30px;
+	margin: 0px;
+}
+
+.Top{
+	width: 700px;
+	margin: 0 auto;
+	text-align: center;
+	justify-content: space-between;
+	margin-top: 0px
+}
+.Top h2{
+	font-family: 'Ubuntu Mono', monospace;
+	margin-bottom: 50px
+}
+.Top h1{
+	font-size: 100px
+}
+@media (max-width: 960px) {
+  .Top {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .Top {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .Top {
+    width: 300px;
+  }
+}
